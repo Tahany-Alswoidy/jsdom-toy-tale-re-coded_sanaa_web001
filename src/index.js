@@ -12,5 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toyFormContainer.style.display = "none";
     }
   });
-  fetch('').then(res=>res.json()).then((data)=>{})
+  fetch('').then(res=>res.json()).then((data)=>{
+    
+  })
 });
