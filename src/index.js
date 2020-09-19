@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
       p.innerHTML=toy.likes;
       let button=document.creatElement("button");
       button.setAttribute("class","like-btn");
-      card.appendChild(h2)
+      card.appendChild(h2);
       document.getElementById('toy-collection').appendChild(card)
     })
   })
