@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
       card.setAttribute("class","card");
       let h2=document.creatElement("div");
       h2.innerHTML=toy.name;
+      let img=document.creatElement("img");
+      img.setAttribute("src",toy.toy-avatar);
       document.getElementById('toy-collection').appendChild(card)
     })
   })
