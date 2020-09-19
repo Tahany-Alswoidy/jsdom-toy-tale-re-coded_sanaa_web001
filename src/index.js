@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.appendChild(img);
       card.appendChild(p);
       card.appendChild(button);
-      document.getElementById('toy-collection').appendChild(card)
+      document.getElementById('toy-collection').appendChild(card);
     })
   })
 });
