@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
       img.setAttribute("src",toy.toy-avatar);
       let p=document.creatElement("p");
       p.innerHTML=toy.likes;
-      let card=document.creatElement("button");
-      card.setAttribute("class","card");
+      let button=document.creatElement("button");
+      button.setAttribute("class","like-btn");
       document.getElementById('toy-collection').appendChild(card)
     })
   })
