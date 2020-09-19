@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let card=document.creatElement("div");
       card.setAttribute("class","card");
       let h2=document.creatElement("div");
+      h2.innerHTML=toy.name;
       document.getElementById('toy-collection').appendChild(card)
     })
   })
