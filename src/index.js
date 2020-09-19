@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
       h2.innerHTML=toy.name;
       let img=document.creatElement("img");
       img.setAttribute("src",toy.toy-avatar);
-      let h2=document.creatElement("div");
-      h2.innerHTML=toy.name;
+      let p=document.creatElement("p");
+      p.innerHTML=toy.likes;
       document.getElementById('toy-collection').appendChild(card)
     })
   })
