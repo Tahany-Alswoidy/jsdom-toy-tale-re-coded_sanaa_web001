@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     data.forEach((toy)=>{
       let card=document.creatElement("div");
       card.setAttribute("class","card");
-      document.getElementById('toy-collection').appendChild()
+      document.getElementById('toy-collection').appendChild(card)
     })
   })
 });
