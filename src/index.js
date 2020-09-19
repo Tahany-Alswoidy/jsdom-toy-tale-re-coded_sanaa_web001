@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   fetch('http://localhost:3000/toys').then(res=>res.json()).then((data)=>{
-    
+    data.forEach((toy)=>{})
   })
 });
